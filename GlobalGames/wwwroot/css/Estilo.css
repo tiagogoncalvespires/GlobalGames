@@ -176,8 +176,8 @@ aside#sidebar .orcamento input, aside#sidebar .orcamento textarea {
 }
 
 /* Página Inscrições  */
-h3{
-    font-size: 10px;
+.Inscri {
+    text-align: center;
 }
 
 
