@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GlobalGames.Dados.Entidades
 {
-    public class Inscricoes
+    public class Inscricoes:IEntity
     {
         public int Id { get; set; }
 
@@ -26,5 +26,13 @@ namespace GlobalGames.Dados.Entidades
 
         [Display(Name = "Data de Nascimento")]
         public DateTime DataNascimento { get; set; }
+
+
+        [Display(Name = "Image")]
+        public string ImageUrl { get; set; }
+
+
+        public User User { get; set; }
+
     }
 }
